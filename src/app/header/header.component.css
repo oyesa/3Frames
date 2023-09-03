@@ -1,0 +1,18 @@
+
+
+
+.head1{
+  background: #000;
+  height: 5vh;
+}
+
+.hp{
+  color: #fff;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.icons .fa {
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
+}
