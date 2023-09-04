@@ -14,17 +14,6 @@
   padding-left: 111px;
 }
 
-.btn2{
-  padding: 10px 20px;
-  border: none;
-  color: #fff;
-  display: flex;
-  justify-content: flex-end;
-  float: right;
-  border-radius: 15px;
-  background: var(--Button-Color, linear-gradient(96deg, rgba(127, 80, 226, 0.77) -10.44%, rgba(11, 255, 196, 0.77) 108.53%, rgba(11, 255, 196, 0.77) 108.54%));
-}
-
 .main-land h1{
   font-size: 80px;
   
@@ -53,6 +42,27 @@ hr{
 }
 
 .main-land p{
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.btn2{
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 15px;
+  background: var(--Button-Color, linear-gradient(96deg, rgba(127, 80, 226, 0.77) -10.44%, rgba(11, 255, 196, 0.77) 108.53%, rgba(11, 255, 196, 0.77) 108.54%));
+}
+
+.card-img{
+  float: right;
+  position: relative;
+  top:-150%;
+}
+
+.main-p{
+  font-weight: 700;
+  word-spacing: 1cm;
 }
