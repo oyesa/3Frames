@@ -162,12 +162,13 @@ hr{
 .projects{
   background: #F5F5F5;
   padding-left: 111px;
+  padding-bottom: 100px;
 }
 
 .projects h1{
   text-align: center;
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 }
 
 .projects span{
@@ -175,12 +176,54 @@ hr{
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
   padding-top: 100px;
 }
 
+.projects-col{
+  float: left;
+  margin: 5px;
+}
+
 .card-img2{
-  width: 400px;
+  width: 500px;
   height: 400px;
   border-radius: 20px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn3{
+  padding: 10px 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: none;
+  color: #fff;
+  /* display: flex; */
+  display:block;
+  margin: 0 auto;
+  /* justify-content: flex-end; */
+  border-radius: 15px;
+  background: var(--Button-Color, linear-gradient(96deg, rgba(127, 80, 226, 0.77) -10.44%, rgba(11, 255, 196, 0.77) 108.53%, rgba(11, 255, 196, 0.77) 108.54%));
+}
+
+.proj-inner{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 15px;
+  width: 330px;
+  height: 100px;
+  display:block;
+  position: absolute;
+  padding-left: 50px;
+}
+
+.proj-inner p{
+  background: var(--Button-Color, linear-gradient(96deg, rgba(127, 80, 226, 0.77) -10.44%, rgba(11, 255, 196, 0.77) 108.53%, rgba(11, 255, 196, 0.77) 108.54%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
