@@ -17,7 +17,6 @@
 
 .main-land h1{
   font-size: 80px;
-  
 }
 
 .main-land span{
@@ -26,20 +25,21 @@
   -webkit-text-fill-color: transparent;
 }
 
-hr{
+/* hr{
   width: 7px;
   height: 5px;
   border-radius: 5px;
   background: -webkit-linear-gradient(#7f50e2, #0bffc4);
   display: inline-block;
-}
+} */
 
-.hr2{
-  width: 50px;
+hr{
+  width: 100px;
   height: 5px;
   border-radius: 5px;
   background: -webkit-linear-gradient(#7f50e2, #0bffc4);
-  margin: 10px;
+  margin-left: 290px;
+  margin-top: 20px;
 }
 
 .main-land p{
@@ -49,6 +49,7 @@ hr{
 
 .btn2{
   padding: 10px 20px;
+  margin-top: 30px;
   border: none;
   color: #fff;
   display: flex;
@@ -90,7 +91,7 @@ hr{
   .bout-img{
     /* background: url(.../assets/aboutone.jpg); */
     /* background-size: 20px 20px; */
-    background: url("../../assets/aboutone.jpg");
+    /* background: url("../../assets/aboutone.jpg"); */
     height: 500px;
     width: 500px;
     border-radius: 20px;
@@ -98,4 +99,29 @@ hr{
 
   .card-img1{
     border-radius: 20px;
+  }
+
+  .inner-sec{
+    width: 30%;
+    float: right;
+  }
+
+  .inner-sec span{
+  background: -webkit-linear-gradient(#7f50e2, #0bffc4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  }
+
+  .inner-sec h1{
+    padding-bottom: 20px;
+  }
+
+  .hr2{
+    width: 90px;
+    height: 5px;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(#7f50e2, #0bffc4);
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
