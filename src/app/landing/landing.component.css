@@ -73,15 +73,6 @@ hr{
 
 /* ABOUT SECTION */
 
-
-  /* width: 55%; */
-  /* float: right; */
-  /* background: url(../assets/aboutone.jpg) no-repeat left; */
-  /* background-size: 55%; */
-  /* background: -webkit-linear-gradient(#7f50e2, #0bffc4); */
-  /* padding: 140px; */
-  /* box-shadow: 13px 12px 8px rgba(0,0,0,0.3); */
-
   .about{
     background-color: #F5F5F5;
     padding-top: 100px;
@@ -125,3 +116,42 @@ hr{
     margin-top: 10px;
     margin-bottom: 20px;
   }
+
+  /* MAIN SERVICES SECTION */
+
+
+  .main-serv{
+    padding-left: 111px;
+    background: var(--First-Background-Color, #ECEFF1);
+  }
+
+
+.main-serv span{
+  background: -webkit-linear-gradient(#7f50e2, #0bffc4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+.main-serv h1{
+  padding-top: 60px;
+
+}
+
+.main-serv p{
+  width: 30%;
+}
+
+/* .main-serv col{
+} */
+
+.serve-col{
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); */
+  /* grid-gap: 2rem; */
+  margin-top: 10px;
+  background-color: #fff;
+  width: 250px;
+  border-radius: 20px;
+  padding: 25px;
+  text-align: center;
+}
