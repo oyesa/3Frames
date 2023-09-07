@@ -12,6 +12,7 @@
 .main-land{
   background: #eceff1;
   padding-left: 111px;
+  padding-bottom: 111px;
 }
 
 .main-land h1{
@@ -57,12 +58,44 @@ hr{
 }
 
 .card-img{
-  float: right;
-  position: relative;
-  top:-150%;
+  top:20%;
+  position: absolute;
+  right: 15%;
+  bottom: 0;
+  height: 600px;
 }
 
 .main-p{
   font-weight: 700;
   word-spacing: 1cm;
 }
+
+/* ABOUT SECTION */
+
+
+  /* width: 55%; */
+  /* float: right; */
+  /* background: url(../assets/aboutone.jpg) no-repeat left; */
+  /* background-size: 55%; */
+  /* background: -webkit-linear-gradient(#7f50e2, #0bffc4); */
+  /* padding: 140px; */
+  /* box-shadow: 13px 12px 8px rgba(0,0,0,0.3); */
+
+  .about{
+    background-color: #F5F5F5;
+    padding-top: 100px;
+    padding-left: 111px;
+  }
+
+  .bout-img{
+    /* background: url(.../assets/aboutone.jpg); */
+    /* background-size: 20px 20px; */
+    background: url("../../assets/aboutone.jpg");
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+  }
+
+  .card-img1{
+    border-radius: 20px;
+  }
