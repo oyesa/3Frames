@@ -227,3 +227,85 @@ hr{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+/* PRICE PLAN SECTION  */
+
+.price-sec{
+  background: #ECEFF1;
+  padding-left: 111px;
+}
+
+.price-sec span{
+  background: var(--Button-Color, linear-gradient(96deg, rgba(127, 80, 226, 0.77) -10.44%, rgba(11, 255, 196, 0.77) 108.53%, rgba(11, 255, 196, 0.77) 108.54%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.price-sec h1{
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.price-sec .p2{
+  text-align: center;
+}
+
+.hr3{
+  width: 90px;
+  height: 5px;
+  border-radius: 5px;
+  background: -webkit-linear-gradient(#7f50e2, #0bffc4);
+  margin-left: 840px;
+  margin-top: 15x;
+  margin-bottom: 20px;
+}
+
+.projects-col1{
+  background-color: #fff;
+  height: 350px;
+  width: 250px;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.proj-inn{
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  align-items: center;
+  border-radius: 21.48px 21.48px 0px 0px;
+  background: var(--Button-Color, linear-gradient(96deg, rgba(127, 80, 226, 0.77) -10.44%, rgba(11, 255, 196, 0.77) 108.53%, rgba(11, 255, 196, 0.77) 108.54%));
+}
+
+.proj-inn h3{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.proj-inn p{
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.proj-inn2 p{
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.proj-in{
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  align-items: center;
+  border-radius: 21.48px 21.48px 0px 0px;
+  background: var(--First-Button-Hover-color, linear-gradient(96deg, rgba(226, 89, 80, 0.77) -10.44%, rgba(220, 255, 7, 0.77) 108.53%, rgba(250, 255, 11, 0.77) 108.54%));
+}
+
