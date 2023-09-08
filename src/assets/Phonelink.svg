@@ -1,0 +1,15 @@
+<svg width="76" height="78" viewBox="0 0 76 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Phonelink" clip-path="url(#clip0_55_262)">
+<path id="Vector" d="M12.6667 19.2889H69.6667V12.8593H12.6667C9.18333 12.8593 6.33333 15.7526 6.33333 19.2889V54.6518H0V64.2962H44.3333V54.6518H12.6667V19.2889ZM72.8333 25.7185H53.8333C52.0917 25.7185 50.6667 27.1652 50.6667 28.9333V61.0814C50.6667 62.8495 52.0917 64.2962 53.8333 64.2962H72.8333C74.575 64.2962 76 62.8495 76 61.0814V28.9333C76 27.1652 74.575 25.7185 72.8333 25.7185ZM69.6667 54.6518H57V32.1481H69.6667V54.6518Z" fill="url(#paint0_linear_55_262)" fill-opacity="0.77"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_55_262" x1="-8.78613" y1="12.8593" x2="89.1622" y2="28.3932" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7F50E2"/>
+<stop offset="0.997094" stop-color="#0BFFC4"/>
+<stop offset="0.997194" stop-color="#0BFFC4"/>
+</linearGradient>
+<clipPath id="clip0_55_262">
+<rect width="76" height="77.1554" fill="white"/>
+</clipPath>
+</defs>
+</svg>
